@@ -361,6 +361,7 @@ namespace LibreHardwareMonitor.Hardware.Motherboard.Lpc
                     switch (revision)
                     {
                         case 0x23:
+                        case 0x2A:
                             chip = Chip.NCT6796D;
                             logicalDeviceNumber = WINBOND_NUVOTON_HARDWARE_MONITOR_LDN;
                             break;
